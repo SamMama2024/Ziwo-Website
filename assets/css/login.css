@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* lgn */
+.login {
+
+    display: flex;
+}
+
+.login2 {
+    width: 700px;
+
+}
+
+.login2 img {
+    width: 700px;
+    height: 600px;
+    display: block;
+    margin-left: 10px;
+}
+.login2 span{
+color: #1E2A3B;
+font-size: 39px;
+margin-left: 150px;
+}
+.login3{
+background-color: #0F172A;    
+height: 690px;
+}
+.login3 h2{
+    color: white;
+    font-size: 35px;
+    margin-left: 120px;
+    /* margin-bottom: 20px; */
+    /* padding-top: 20px; */
+    display: inline;
+}
+.login3 img{
+    margin-left: 50px;
+    padding-top: 20px;
+    width: 90px;
+}
+.login3 label{
+    color: white;
+/* padding-top: 50px; */
+    margin-left: 125px;
+    font-size: 25px;
+}
+.login3 input{
+    width: 480px;
+    height: 40px;
+    margin-left: 125px;
+    color: white;
+
+
+}
+.login4{
+    display: flex;
+}
+
+.login6 input{
+    margin-left: 125px;
+    width: 15px;
+    /* height: 40px; */
+    margin-top: -8px;
+    color: white;
+
+
+}
+.login7 label{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: -50px;
+    margin-right: 120px;
+
+}
+.login3 input{
+    font-size: 20px;
+    text-align: center;
+    background-color: #0F172A;
+    color: white;
+
+}
+
+
+
+/* <Laptop> */
+@media screen and (max-width:1025px)and (min-width:770px) {
+   
+    .login{
+        display: block;
+        width: 1100px;
+        height: 840px;
+    }
+    .login2 img{
+        /* margin-left:90px; */
+        width: 1500px;
+        height: 800px;
+    }
+    .login span{
+        width: 900px;
+        font-size: 35px;
+        /* margin-left: 300px; */
+    }
+    .login3{
+        width: 1500px;
+        height: 800px;
+    }
+    .login3 h2{
+        margin-left: 125px;
+        font-size: 65px;
+
+    }
+    .login3 img{
+        width: 160px;
+        margin-left: 150px;
+
+        
+    }
+    .login3 label{      
+        font-size: 48px;
+        margin-left: 300px;
+    }
+    .login3 input{
+        margin-left: 300px;  
+        width: 600px;
+    }
+    .login6 input{
+        width: 20px;
+    }
+
+    .login7 label{
+        margin-right: 210px;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+
+}
+
+/* <tab view> */
+@media screen and (min-width: 428px) and (max-width:769px) {
+
+    .login{
+        display: block;
+        width: 900px;
+    }
+    .login2 img{
+        margin-left:90px;
+        width: 700px;
+        height: 550px;
+    }
+    .login span{
+        font-size: 30px;
+        margin-left: 100px;
+    }
+    .login3 h2{
+        margin-left: 55px;
+        font-size: 45px;
+
+    }
+    .login3 img{
+        width: 90px;
+        
+    }
+    .login3 label{      
+        font-size: 28px;
+    }
+    .login3 input{
+        margin-left: 120px;  
+        width: 600px;
+    }
+    .login6 input{
+        width: 20px;
+    }
+
+    .login7 label{
+        margin-right: 210px;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+}
+@media screen and (min-width: 375px) and (max-width:426px){
+    .login{
+        display: block;
+    }
+    .login3{
+        width: 900px;
+    }
+}
